@@ -30,7 +30,7 @@ define Package/ipportfwd
 endef
 
 define Package/ipportfwd/description
-  Forward UDP to IPv4 IP and port with TProxy
+  Forward UDP to IPv4 IP and port with TProxy.
 endef
 
 GO_PKG_BUILD_VARS += GO111MODULE=auto
