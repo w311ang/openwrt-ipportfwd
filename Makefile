@@ -24,13 +24,13 @@ include ../../feeds/packages/lang/golang/golang-package.mk
 define Package/ipportfwd
   SECTION:=net
   CATEGORY:=Network
-  TITLE:=Forward to IPv4 IP and port with TProxy
+  TITLE:=Forward UDP to UDP IPv4 IP and port with TProxy
   URL:=https://github.com/w311ang/ipportfwd
   DEPENDS:=$(GO_ARCH_DEPENDS)
 endef
 
 define Package/ipportfwd/description
-  Forward to IPv4 IP and port with TProxy
+  Forward UDP to IPv4 IP and port with TProxy
 endef
 
 GO_PKG_BUILD_VARS += GO111MODULE=auto
